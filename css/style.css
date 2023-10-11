@@ -1,3 +1,34 @@
 body {
     background-color: khaki;
+    display: flex;
+    align-items: center;
+}
+
+.result {
+    background-color: aqua;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: 180px;
+    left: 373px;
+    border-radius: 8%;
+    text-align: center;
+}
+#score{
+    background-color: aquamarine;
+}
+.summary {
+    background-color: beige;
+    position: relative;
+    width: 350px;
+    height: 500px;
+    top: 180px;
+    left: 373px;
+    border-radius: 8%;
+    
+}
+
+#button-continue {
+    position: relative;
+    align-items: center;
 }
